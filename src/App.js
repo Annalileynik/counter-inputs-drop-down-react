@@ -1,10 +1,10 @@
 import {useState} from "react";
 
 function App() {
-    const [number1, setNumber1] = useState(0)
-    const [number2, setNumber2] = useState(0)
+    const [number1, setNumber1] = useState(null)
+    const [number2, setNumber2] = useState(null)
     const [operand, setOperand] = useState('*')
-    const [result, setResult] = useState(0)
+    const [result, setResult] = useState(null)
 
     const onchangeNumber1 = (event) => {
         event.target.value == +event.target.value
